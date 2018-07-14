@@ -34,7 +34,7 @@ npmCurrentUser().then(info=> {
 
 Result will be `null` if you aren't logging to npm
 
-## CLI
+## Cli
 
 ```sh
 $ npm-current-user

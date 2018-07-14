@@ -1,6 +1,6 @@
 {
   "name": "npm-current-user",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Get current npm user info",
   "author": {
     "name": "Kyoz",

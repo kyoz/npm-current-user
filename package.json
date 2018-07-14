@@ -1,0 +1,43 @@
+{
+  "name": "npm-current-user",
+  "version": "0.1.0",
+  "description": "Get current npm user info",
+  "author": {
+    "name": "Kyoz",
+    "email": "banminkyoz@gmail.com"
+  },
+  "bin": "cli.js",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "repository": "banminkyoz/npm-current-user",
+  "keywords": [
+    "plugin",
+    "node",
+    "module",
+    "node_module",
+    "npm",
+    "user",
+    "current user",
+    "npm current user info"
+  ],
+  "dependencies": {
+    "npm-user": "^3.0.2",
+    "npm-whoami": "^1.1.4"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "xo": "^0.21.1"
+  },
+  "xo": {
+    "space": 2
+  },
+  "license": "MIT"
+}
